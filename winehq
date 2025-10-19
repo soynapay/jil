@@ -10,3 +10,29 @@ WINEARCH=win64 WINEPREFIX=~/.wine wine64 ~/Downloads/dotnet-sdk-9.0.306-win-x64.
 WINEARCH=win64 WINEPREFIX=~/.wine wine64 ~/Downloads/TimelineExplorer.exe
 
 
+INSTALLING WINE 32/64-bit +.net 9 runtime on Debian Trixie
+1. enable 32-bit archi support
+sudo dpkg --add-architecture i386
+sudo apt update
+2. add winehq repo and key
+-download and install winehq gpg key
+-add the winehq Trixie source list
+sudo mkdir -pm755 /etc/apt/keyrings
+wget -O - https://dl.winehq.org/wine-builds/winehq.key | gpg --dearmor | sudo tee /etc/apt/keyrings/winehq-archive.key > /dev/null
+sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/debian/dists/trixie/winehq-trixie.sources
+sudo apt update
+3. install wine both 64 and 32 bit
+sudo apt install --install-recommends winehq-stable wine32
+4. verify wine installation
+wine --version
+wine64 --version
+5. download windows .net 9 sdk installer
+(dotnet-sdk-9.0.306-win-x64.exe)
+6. install .net sdk inside wine 64-bit prefix
+WINEARCH=win64 WINEPREFIX=~/.wine wine64 ~/Downloads/dotnet-sdk-9.0.306-win-x64.exe
+7. run windows.net app with wine
+WINEARCH=win64 WINEPREFIX=~/.wine wine64 ~/Downloads/TimelineExplorer.exe
+
+*note make sure to install runtime winx64
+WINEARCH=win64 WINEPREFIX=~/.wine wine64 ~/Downloads/dotnet-runtime-9.0.x-win-x64.exe
+
