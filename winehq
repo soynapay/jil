@@ -36,3 +36,28 @@ WINEARCH=win64 WINEPREFIX=~/.wine wine64 ~/Downloads/TimelineExplorer.exe
 *note make sure to install runtime winx64
 WINEARCH=win64 WINEPREFIX=~/.wine wine64 ~/Downloads/dotnet-runtime-9.0.x-win-x64.exe
 
+
+# Enable 32-bit support
+sudo dpkg --add-architecture i386
+sudo apt update
+
+# Add WineHQ repo + key
+sudo mkdir -pm755 /etc/apt/keyrings
+wget -O - https://dl.winehq.org/wine-builds/winehq.key | gpg --dearmor | sudo tee /etc/apt/keyrings/winehq-archive.key > /dev/null
+sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/debian/dists/trixie/winehq-trixie.sources
+sudo apt update
+
+# Install Wine
+sudo apt install --install-recommends winehq-stable wine32
+
+# Initialize Wine prefix
+WINEARCH=win64 WINEPREFIX=~/.wine wineboot
+
+# Install .NET 9 SDK + Runtime (Windows versions)
+WINEARCH=win64 WINEPREFIX=~/.wine wine64 ~/Downloads/dotnet-sdk-9.0.306-win-x64.exe
+WINEARCH=win64 WINEPREFIX=~/.wine wine64 ~/Downloads/dotnet-runtime-9.0.x-win-x64.exe
+
+# Run your Windows .NET app
+WINEARCH=win64 WINEPREFIX=~/.wine wine64 ~/Downloads/TimelineExplorer.exe
+
+
