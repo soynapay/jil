@@ -60,4 +60,6 @@ WINEARCH=win64 WINEPREFIX=~/.wine wine64 ~/Downloads/dotnet-runtime-9.0.x-win-x6
 # Run your Windows .NET app
 WINEARCH=win64 WINEPREFIX=~/.wine wine64 ~/Downloads/TimelineExplorer.exe
 
+wget https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks && chmod +x winetricks && sudo mv winetricks /usr/local/bin
+
 
