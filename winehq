@@ -3,7 +3,10 @@ wget -O - https://dl.winehq.org/wine-builds/winehq.key | gpg --dearmor | sudo te
 sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/debian/dists/trixie/winehq-trixie.sources
 sudo apt update
 
+WINEARCH=win64 WINEPREFIX=~/.wine wine64 ~/Downloads/dotnet-runtime-9.0.x-win-x64.exe
 
 WINEARCH=win64 WINEPREFIX=~/.wine wine64 ~/Downloads/dotnet-sdk-9.0.306-win-x64.exe
 
 WINEARCH=win64 WINEPREFIX=~/.wine wine64 ~/Downloads/TimelineExplorer.exe
+
+
