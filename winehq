@@ -63,3 +63,5 @@ WINEARCH=win64 WINEPREFIX=~/.wine wine64 ~/Downloads/TimelineExplorer.exe
 wget https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks && chmod +x winetricks && sudo mv winetricks /usr/local/bin
 rm /usr/local/bin/winetricks
 
+https://www.blackhillsinfosec.com/wrangling-windows-event-logs-with-hayabusa-sof-elk-part-1/#:~:text=You%20can%20check%20out%20the%20SOF%2DELK%20GitHub%20repo%2C%20download,of%20updated%20rules%20scroll%20by!
+
