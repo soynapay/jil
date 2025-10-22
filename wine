@@ -22,7 +22,7 @@ Wine installation
 5. download windows .net latest or required version
 
 6. install winetricks
-- sudo wget (GitHub repo)
+- sudo wget https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks
 - sudo chmod +x winetricks
 - sudo mv winetricks /usr/local/bin
 - sudo apt update
@@ -48,3 +48,8 @@ sudo apt-get clean
 
 remove flatpack or other installations(enable flatpack)
 flatpak uninstall --delete-data org.winehq.Wine
+
+remove i386 dependencies
+sudo dpkg -l | grep i386
+sudo apt purge '.*:i386'
+
