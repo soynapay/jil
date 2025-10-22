@@ -29,7 +29,7 @@ Wine installation
 (run winetricks if no PATH ./wine
 
 7. install dotnet latest version inside wine environment
-- WINEARCH=win64 WINEPREFIX=~/.wine wine64 ~/Downloads/dotnet-runtime-9.0.x-win-x64.exe
+- WINEARCH=win64 WINEPREFIX=~/.wine wine64 ~/Downloads/dotnet-runtime-9.0.x-win-x64.exe or WINEARCH=win64 WINEPREFIX=~/.wine wine ~/Downloads/dotnet-runtime-9.0.x-win-x64.exe
 - WINEARCH=win64 WINEPREFIX=~/.wine wine64 ~/Downloads/dotnet-sdk-9.0.306-win-x64.exe
 - or required dotnet version
 
