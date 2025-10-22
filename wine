@@ -1,0 +1,50 @@
+Wine installation
+
+1. enable 32-bit architecture support
+- sudo dpkg --add-architecture i386
+- sudo apt update
+
+2. install wine64 wine32
+- sudo apt install wine wine64 wine32
+- sudo dpkg -l | grep i386
+
+3. add winehq and winehq Trixie source list repo and keyrings
+- sudo mkdir -pm755 /etc/apt/keyrings
+- sudo wget -O /etc/apt/keyrings/winehq-archive.key https://dl.winehq.org/wine-builds/winehq.key
+- sudo apt update
+- sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/debian/dists/trixie/winehq-trixie.sources
+- sudo apt update
+- sudo apt install --install-recommends winehq-stable
+
+4. verify wine installation
+- wine --version
+
+5. download windows .net latest or required version
+
+6. install winetricks
+- sudo wget (GitHub repo)
+- sudo chmod +x winetricks
+- sudo mv winetricks /usr/local/bin
+- sudo apt update
+(run winetricks if no PATH ./wine
+
+7. install dotnet latest version inside wine environment
+- WINEARCH=win64 WINEPREFIX=~/.wine wine64 ~/Downloads/dotnet-runtime-9.0.x-win-x64.exe
+- WINEARCH=win64 WINEPREFIX=~/.wine wine64 ~/Downloads/dotnet-sdk-9.0.306-win-x64.exe
+- or required dotnet version
+
+8. run windows.app with wine
+- wine TimelineExplorer.exe
+
+removes wine and its configuration files
+sudo apt-get purge wine-stable or sudo apt-get purge wine\*
+
+remove wine's user configuration
+rm -r ~/.wine
+
+clean up dependencies and residual files
+sudo apt autoremove
+sudo apt-get clean
+
+remove flatpack or other installations(enable flatpack)
+flatpak uninstall --delete-data org.winehq.Wine
