@@ -60,6 +60,13 @@ WINEARCH=win64 WINEPREFIX=~/.wine wine64 ~/Downloads/dotnet-runtime-9.0.x-win-x6
 # Run your Windows .NET app
 WINEARCH=win64 WINEPREFIX=~/.wine wine64 ~/Downloads/TimelineExplorer.exe
 
+EvtxECmd.exe -f "C:\Temp\Application.evtx" --csv "c:\temp\out" 
+  --csvf MyOutputFile.csv
+            EvtxECmd.exe -f "C:\Temp\Application.evtx" --csv "c:\temp\out"
+            EvtxECmd.exe -f "C:\Temp\Application.evtx" --json "c:\temp\jsono
+ut"
+
+
 wget https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks && chmod +x winetricks && sudo mv winetricks /usr/local/bin
 rm /usr/local/bin/winetricks
 
