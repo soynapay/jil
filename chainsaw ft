@@ -1,3 +1,5 @@
 chainsaw hunt expects the path to the forensic artefacts as a positional argument (not an option). In your working command the -r rules option comes before the path — that's fine — and the path EVTX-ATTACK-SAMPLES/'Access Credential' is correctly quoted to handle the space.
 
 The folder name itself matters exactly (you discovered it: Access Credential, not Credential Access), and the shell splits on spaces unless you quote or escape them.
+
+https://medium.com/@izzyboop/grab-your-chainsaw-were-going-hunting-50a5c82cef5d
