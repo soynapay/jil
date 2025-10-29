@@ -11,3 +11,276 @@ evtxcmd -f "/path/Security.evtx" \
          --inc 4624,4625 \
          --sd "2025-01-01 00:00:00" \
          --ed "2025-01-31 23:59:59"
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ref
+2024-05-15 05:35:18
+C:\Windows\Temp\dump_tmp\Active Directory\ntds.dit
+2024-05-15 01:39:56.174 +08:00 / 2024-05-15 01:39:56.502 +08:00
+2024-05-15 05:39:58
+
+
+
+
+| Event ID           | Meaning (Common Source)                                               | Count       |
+| ------------------ | --------------------------------------------------------------------- | ----------- |
+| **1**              | Kernel-General (System start or shutdown)                             | 1           |
+| **6**              | Kernel-General (System time change or driver load)                    | 11          |
+| **55**             | NTFS file system corruption or disk issue                             | 8           |
+| **7036**           | Service Control Manager – “Service entered the running/stopped state” | 127         |
+| **6005**           | Event Log service started (“Event log started”)                       | 1           |
+| **6009**           | OS version info at startup                                            | 1           |
+| **6013**           | System uptime event                                                   | 1           |
+| **7001**, **7026** | Service dependency or driver load failures                            | 1 each      |
+| **7040**           | Service startup type changed                                          | 4           |
+| **10016**          | DCOM permission issue (common but usually harmless)                   | 1           |
+| **16962–16983**    | BitLocker-related events                                              | Few entries |
+| **50103, 51046**   | Device or driver-related events                                       | 1 each      |
+
+
+Event_attributes:
+  xmlns: http://schemas.microsoft.com/win/2004/08/events/event
+Event:
+  System:
+    Provider_attributes:
+      Name: ESENT
+    EventID_attributes:
+      Qualifiers: 0
+    EventID: 327
+    Version: 0
+    Level: 4
+    Task: 1
+    Opcode: 0
+    Keywords: '0x80000000000000'
+    TimeCreated_attributes:
+      SystemTime: 2024-05-15T05:39:58.564775Z
+    EventRecordID: 649
+    Correlation: null
+    Execution_attributes:
+      ProcessID: 0
+      ThreadID: 0
+    Channel: Application
+    Computer: DC01.forela.local
+    Security: null
+  EventData:
+    Data:
+    - NTDS
+    - 3940,D,100
+    - ''
+    - '1'
+    - C:\$SNAP_202405151039_VOLUMEC$\Windows\NTDS\ntds.dit
+    - '0'
+    - |2-
+
+      [1] 0.000002 +J(0)
+      [2] 0.0 +J(0)
+      [3] 0.000001 +J(0)
+      [4] 0.0 +J(0)
+      [5] 0.0 +J(0)
+      [6] 0.001632 -0.001582 (1) WT +J(0) +M(C:0K, Fs:2, WS:8K # 0K, PF:40K # 0K, P:40K)
+      [7] 0.000048 +J(0) +M(C:0K, Fs:0, WS:0K # 0K, PF:64K # 0K, P:64K)
+      [8] 0.0 +J(0)
+      [9] 0.000030 +J(0) +M(C:0K, Fs:0, WS:-20K # 0K, PF:-20K # 0K, P:-20K)
+      [10] 0.000011 +J(0)
+      [11] 0.000068 +J(0) +M(C:0K, Fs:0, WS:-200K # 0K, PF:-200K # 0K, P:-200K).
+    - 0 0
+    - ''
+    Binary: null
+    
+    HarddiskVolumeShadowCopy1
+EventSourceName: Wlclntfy
+
+
+Event_attributes:
+  xmlns: http://schemas.microsoft.com/win/2004/08/events/event
+Event:
+  System:
+    Provider_attributes:
+      Name: Microsoft-Windows-Winlogon
+      Guid: '{DBE9B383-7CF3-4331-91CC-A3CB16A3B538}'
+      EventSourceName: Wlclntfy
+    EventID_attributes:
+      Qualifiers: 32768
+    EventID: 6003
+    Version: 0
+    Level: 4
+    Task: 0
+    Opcode: 0
+    Keywords: '0x80000000000000'
+    TimeCreated_attributes:
+      SystemTime: 2023-03-07T19:46:18.428564Z
+    EventRecordID: 26
+    Correlation: null
+    Execution_attributes:
+      ProcessID: 0
+      ThreadID: 0
+    Channel: Application
+    Computer: WIN-D7MHOC9OLC8
+    Security: null
+  EventData:
+    Data:
+    - SessionEnv
+    Binary: D9060000
+
+Event_attributes:
+  xmlns: http://schemas.microsoft.com/win/2004/08/events/event
+Event:
+  System:
+    Provider_attributes:
+      Name: Microsoft-Windows-Winlogon
+      Guid: '{DBE9B383-7CF3-4331-91CC-A3CB16A3B538}'
+      EventSourceName: Wlclntfy
+    EventID_attributes:
+      Qualifiers: 32768
+    EventID: 6000
+    Version: 0
+    Level: 4
+    Task: 0
+    Opcode: 0
+    Keywords: '0x80000000000000'
+    TimeCreated_attributes:
+      SystemTime: 2023-03-07T19:46:19.788123Z
+    EventRecordID: 28
+    Correlation: null
+    Execution_attributes:
+      ProcessID: 0
+      ThreadID: 0
+    Channel: Application
+    Computer: WIN-D7MHOC9OLC8
+    Security: null
+  EventData:
+    Data:
+    - SessionEnv
+    Binary: D9060000
+
+Event_attributes:
+  xmlns: http://schemas.microsoft.com/win/2004/08/events/event
+Event:
+  System:
+    Provider_attributes:
+      Name: Microsoft-Windows-Security-SPP
+      Guid: '{E23B33B0-C8C9-472C-A5F9-F2BDFEA0F156}'
+      EventSourceName: Software Protection Platform Service
+    EventID_attributes:
+      Qualifiers: 32768
+    EventID: 1067
+    Version: 0
+    Level: 4
+    Task: 0
+    Opcode: 0
+    Keywords: '0x80000000000000'
+    TimeCreated_attributes:
+      SystemTime: 2023-03-07T19:46:26.460050Z
+    EventRecordID: 34
+    Correlation: null
+    Execution_attributes:
+      ProcessID: 0
+      ThreadID: 0
+    Channel: Application
+    Computer: WIN-D7MHOC9OLC8
+    Security: null
+  EventData:
+    Data:
+    - '0x00000000'
+    - c1a197b6-ba5e-4394-b9bf-b659a6c1b873
+    - SL_ACTIVATION_VALIDATION_IN_PROGRESS
+    Binary: '01000000'
+Event_attributes:
+  xmlns: http://schemas.microsoft.com/win/2004/08/events/event
+Event:
+  System:
+    Provider_attributes:
+      Name: Microsoft-Windows-Complus
+      Guid: '{0f177893-4a9c-4709-b921-f432d67f43d5}'
+      EventSourceName: COM+
+    EventID_attributes:
+      Qualifiers: 32770
+    EventID: 4440
+    Version: 0
+    Level: 3
+    Task: 28
+    Opcode: 0
+    Keywords: '0x80000000000000'
+    TimeCreated_attributes:
+      SystemTime: 2023-03-08T09:41:18.493919Z
+    EventRecordID: 180
+    Correlation: null
+    Execution_attributes:
+      ProcessID: 0
+      ThreadID: 0
+    Channel: Application
+    Computer: DC01
+    Security: null
+  EventData:
+    param1: "WIN-D7MHOC9OLC8\r\n\r\nServer Application ID: {02D4B3F1-FD88-11D1-960D-00805FC79235}\r\nServer Application Instance ID:\r\n{0FD79E7E-685F-452E-BF0F-DE05C98791D5}\r\nServer Application Name: System Application\r\nComsvcs.dll file version: ENU 2001.12.10941.16384 shp
+    
+    EventSourceName: Service Control Manager
+    CallerProcessName: C:\Windows\System32\ntdsutil.exe
+
+Event_attributes:
+  xmlns: http://schemas.microsoft.com/win/2004/08/events/event
+Event:
+  System:
+    Provider_attributes:
+      Name: Service Control Manager
+      Guid: '{555908d1-a6d7-4695-8e1e-26931d2012f4}'
+      EventSourceName: Service Control Manager
+    EventID_attributes:
+      Qualifiers: 16384
+    EventID: 7036
+    Version: 0
+    Level: 4
+    Task: 0
+    Opcode: 0
+    Keywords: '0x8080000000000000'
+    TimeCreated_attributes:
+      SystemTime: 2024-05-15T05:38:31.377463Z
+    EventRecordID: 3117
+    Correlation: null
+    Execution_attributes:
+      ProcessID: 744
+      ThreadID: 2668
+    Channel: System
+    Computer: DC01.forela.local
+    Security: null
+  EventData:
+    param1: Portable Device Enumerator Service
+    param2: stopped
+    Binary: 57005000440042007500730045006E0075006D002F0031000000
+Event_attributes:
+  xmlns: http://schemas.microsoft.com/win/2004/08/events/event
+Event:
+  System:
+    Provider_attributes:
+      Name: Service Control Manager
+      Guid: '{555908d1-a6d7-4695-8e1e-26931d2012f4}'
+      EventSourceName: Service Control Manager
+    EventID_attributes:
+      Qualifiers: 16384
+    EventID: 7036
+    Version: 0
+    Level: 4
+    Task: 0
+    Opcode: 0
+    Keywords: '0x8080000000000000'
+    TimeCreated_attributes:
+      SystemTime: 2024-05-15T05:38:29.658657Z
+    EventRecordID: 3115
+    Correlation: null
+    Execution_attributes:
+      ProcessID: 744
+      ThreadID: 2668
+    Channel: System
+    Computer: DC01.forela.local
+    Security: null
+  EventData:
+    param1: VMware Snapshot Provider
+    param2: stopped
+    Binary: 76006D007600730073002F0031000000
+    
+    
+    TimeCreated_attributes:
+      SystemTime: 2024-05-15T05:37:31.491315Z
+param1: Clipboard User Service_8f1a3
+Event recordID: 3107
+
