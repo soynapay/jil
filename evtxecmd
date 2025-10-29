@@ -1,0 +1,13 @@
+evtxcmd -f "/home/yourusername/Downloads/Logs/Security.evtx" \
+         --csv "/home/yourusername/Downloads/Logs" \
+         --csvf "security-info.csv"
+
+
+
+
+evtxcmd -f "/path/Security.evtx" \
+         --csv "/path/output" \
+         --csvf "filtered.csv" \
+         --inc 4624,4625 \
+         --sd "2025-01-01 00:00:00" \
+         --ed "2025-01-31 23:59:59"
