@@ -284,3 +284,1612 @@ Event:
 param1: Clipboard User Service_8f1a3
 Event recordID: 3107
 
+Event_attributes:
+  xmlns: http://schemas.microsoft.com/win/2004/08/events/event
+Event:
+  System:
+    Provider_attributes:
+      Name: Microsoft-Windows-Security-Auditing
+      Guid: 54849625-5478-4994-A5BA-3E3B0328C30D
+    EventID: 4799
+    Version: 0
+    Level: 0
+    Task: 13826
+    Opcode: 0
+    Keywords: '0x8020000000000000'
+    TimeCreated_attributes:
+      SystemTime: 2024-05-15T05:39:55.636252Z
+    EventRecordID: 5977
+    Correlation: null
+    Execution_attributes:
+      ProcessID: 764
+      ThreadID: 4180
+    Channel: Security
+    Computer: DC01.forela.local
+    Security: null
+  EventData:
+    TargetUserName: Administrators
+    TargetDomainName: Builtin
+    TargetSid: S-1-5-32-544
+    SubjectUserSid: S-1-5-21-3239415629-1862073780-2394361899-500
+    SubjectUserName: Administrator
+    SubjectDomainName: FORELA
+    SubjectLogonId: '0x8de3d'
+    CallerProcessId: '0xf64'
+    CallerProcessName: C:\Windows\System32\ntdsutil.exe
+
+---
+Event_attributes:
+  xmlns: http://schemas.microsoft.com/win/2004/08/events/event
+Event:
+  System:
+    Provider_attributes:
+      Name: Microsoft-Windows-Security-Auditing
+      Guid: 54849625-5478-4994-A5BA-3E3B0328C30D
+    EventID: 4799
+    Version: 0
+    Level: 0
+    Task: 13826
+    Opcode: 0
+    Keywords: '0x8020000000000000'
+    TimeCreated_attributes:
+      SystemTime: 2024-05-15T05:39:55.636799Z
+    EventRecordID: 5978
+    Correlation: null
+    Execution_attributes:
+      ProcessID: 764
+      ThreadID: 4180
+    Channel: Security
+    Computer: DC01.forela.local
+    Security: null
+  EventData:
+    TargetUserName: Backup Operators
+    TargetDomainName: Builtin
+    TargetSid: S-1-5-32-551
+    SubjectUserSid: S-1-5-21-3239415629-1862073780-2394361899-500
+    SubjectUserName: Administrator
+    SubjectDomainName: FORELA
+    SubjectLogonId: '0x8de3d'
+    CallerProcessId: '0xf64'
+    CallerProcessName: C:\Windows\System32\ntdsutil.exe
+
+---
+Event_attributes:
+  xmlns: http://schemas.microsoft.com/win/2004/08/events/event
+Event:
+  System:
+    Provider_attributes:
+      Name: Microsoft-Windows-Security-Auditing
+      Guid: 54849625-5478-4994-A5BA-3E3B0328C30D
+    EventID: 4799
+    Version: 0
+    Level: 0
+    Task: 13826
+    Opcode: 0
+    Keywords: '0x8020000000000000'
+    TimeCreated_attributes:
+      SystemTime: 2024-05-15T05:39:55.638172Z
+    EventRecordID: 5979
+    Correlation: null
+    Execution_attributes:
+      ProcessID: 764
+      ThreadID: 4180
+    Channel: Security
+    Computer: DC01.forela.local
+    Security: null
+  EventData:
+    TargetUserName: Administrators
+    TargetDomainName: Builtin
+    TargetSid: S-1-5-32-544
+    SubjectUserSid: S-1-5-21-3239415629-1862073780-2394361899-500
+    SubjectUserName: Administrator
+    SubjectDomainName: FORELA
+    SubjectLogonId: '0x8de3d'
+    CallerProcessId: '0xf64'
+    CallerProcessName: C:\Windows\System32\ntdsutil.exe
+
+---
+Event_attributes:
+  xmlns: http://schemas.microsoft.com/win/2004/08/events/event
+Event:
+  System:
+    Provider_attributes:
+      Name: Microsoft-Windows-Security-Auditing
+      Guid: 54849625-5478-4994-A5BA-3E3B0328C30D
+    EventID: 4799
+    Version: 0
+    Level: 0
+    Task: 13826
+    Opcode: 0
+    Keywords: '0x8020000000000000'
+    TimeCreated_attributes:
+      SystemTime: 2024-05-15T05:39:55.638888Z
+    EventRecordID: 5980
+    Correlation: null
+    Execution_attributes:
+      ProcessID: 764
+      ThreadID: 4180
+    Channel: Security
+    Computer: DC01.forela.local
+    Security: null
+  EventData:
+    TargetUserName: Backup Operators
+    TargetDomainName: Builtin
+    TargetSid: S-1-5-32-551
+    SubjectUserSid: S-1-5-21-3239415629-1862073780-2394361899-500
+    SubjectUserName: Administrator
+    SubjectDomainName: FORELA
+    SubjectLogonId: '0x8de3d'
+    CallerProcessId: '0xf64'
+    CallerProcessName: C:\Windows\System32\ntdsutil.exe
+
+---
+Event_attributes:
+  xmlns: http://schemas.microsoft.com/win/2004/08/events/event
+Event:
+  System:
+    Provider_attributes:
+      Name: Microsoft-Windows-Security-Auditing
+      Guid: 54849625-5478-4994-A5BA-3E3B0328C30D
+    EventID: 4799
+    Version: 0
+    Level: 0
+    Task: 13826
+    Opcode: 0
+    Keywords: '0x8020000000000000'
+    TimeCreated_attributes:
+      SystemTime: 2024-05-15T05:39:55.648048Z
+    EventRecordID: 5981
+    Correlation: null
+    Execution_attributes:
+      ProcessID: 764
+      ThreadID: 980
+    Channel: Security
+    Computer: DC01.forela.local
+    Security: null
+  EventData:
+    TargetUserName: Administrators
+    TargetDomainName: Builtin
+    TargetSid: S-1-5-32-544
+    SubjectUserSid: S-1-5-21-3239415629-1862073780-2394361899-500
+    SubjectUserName: Administrator
+    SubjectDomainName: FORELA
+    SubjectLogonId: '0x8de3d'
+    CallerProcessId: '0xf64'
+    CallerProcessName: C:\Windows\System32\ntdsutil.exe
+
+---
+Event_attributes:
+  xmlns: http://schemas.microsoft.com/win/2004/08/events/event
+Event:
+  System:
+    Provider_attributes:
+      Name: Microsoft-Windows-Security-Auditing
+      Guid: 54849625-5478-4994-A5BA-3E3B0328C30D
+    EventID: 4799
+    Version: 0
+    Level: 0
+    Task: 13826
+    Opcode: 0
+    Keywords: '0x8020000000000000'
+    TimeCreated_attributes:
+      SystemTime: 2024-05-15T05:39:55.648186Z
+    EventRecordID: 5982
+    Correlation: null
+    Execution_attributes:
+      ProcessID: 764
+      ThreadID: 980
+    Channel: Security
+    Computer: DC01.forela.local
+    Security: null
+  EventData:
+    TargetUserName: Administrators
+    TargetDomainName: Builtin
+    TargetSid: S-1-5-32-544
+    SubjectUserSid: S-1-5-21-3239415629-1862073780-2394361899-500
+    SubjectUserName: Administrator
+    SubjectDomainName: FORELA
+    SubjectLogonId: '0x8de3d'
+    CallerProcessId: '0xf64'
+    CallerProcessName: C:\Windows\System32\ntdsutil.exe
+
+---
+Event_attributes:
+  xmlns: http://schemas.microsoft.com/win/2004/08/events/event
+Event:
+  System:
+    Provider_attributes:
+      Name: Microsoft-Windows-Security-Auditing
+      Guid: 54849625-5478-4994-A5BA-3E3B0328C30D
+    EventID: 4799
+    Version: 0
+    Level: 0
+    Task: 13826
+    Opcode: 0
+    Keywords: '0x8020000000000000'
+    TimeCreated_attributes:
+      SystemTime: 2024-05-15T05:39:55.648373Z
+    EventRecordID: 5983
+    Correlation: null
+    Execution_attributes:
+      ProcessID: 764
+      ThreadID: 812
+    Channel: Security
+    Computer: DC01.forela.local
+    Security: null
+  EventData:
+    TargetUserName: Administrators
+    TargetDomainName: Builtin
+    TargetSid: S-1-5-32-544
+    SubjectUserSid: S-1-5-21-3239415629-1862073780-2394361899-500
+    SubjectUserName: Administrator
+    SubjectDomainName: FORELA
+    SubjectLogonId: '0x8de3d'
+    CallerProcessId: '0xf64'
+    CallerProcessName: C:\Windows\System32\ntdsutil.exe
+
+---
+Event_attributes:
+  xmlns: http://schemas.microsoft.com/win/2004/08/events/event
+Event:
+  System:
+    Provider_attributes:
+      Name: Microsoft-Windows-Security-Auditing
+      Guid: 54849625-5478-4994-A5BA-3E3B0328C30D
+    EventID: 4799
+    Version: 0
+    Level: 0
+    Task: 13826
+    Opcode: 0
+    Keywords: '0x8020000000000000'
+    TimeCreated_attributes:
+      SystemTime: 2024-05-15T05:39:55.648917Z
+    EventRecordID: 5984
+    Correlation: null
+    Execution_attributes:
+      ProcessID: 764
+      ThreadID: 980
+    Channel: Security
+    Computer: DC01.forela.local
+    Security: null
+  EventData:
+    TargetUserName: Backup Operators
+    TargetDomainName: Builtin
+    TargetSid: S-1-5-32-551
+    SubjectUserSid: S-1-5-21-3239415629-1862073780-2394361899-500
+    SubjectUserName: Administrator
+    SubjectDomainName: FORELA
+    SubjectLogonId: '0x8de3d'
+    CallerProcessId: '0xf64'
+    CallerProcessName: C:\Windows\System32\ntdsutil.exe
+
+---
+Event_attributes:
+  xmlns: http://schemas.microsoft.com/win/2004/08/events/event
+Event:
+  System:
+    Provider_attributes:
+      Name: Microsoft-Windows-Security-Auditing
+      Guid: 54849625-5478-4994-A5BA-3E3B0328C30D
+    EventID: 4799
+    Version: 0
+    Level: 0
+    Task: 13826
+    Opcode: 0
+    Keywords: '0x8020000000000000'
+    TimeCreated_attributes:
+      SystemTime: 2024-05-15T05:39:55.649059Z
+    EventRecordID: 5985
+    Correlation: null
+    Execution_attributes:
+      ProcessID: 764
+      ThreadID: 980
+    Channel: Security
+    Computer: DC01.forela.local
+    Security: null
+  EventData:
+    TargetUserName: Backup Operators
+    TargetDomainName: Builtin
+    TargetSid: S-1-5-32-551
+    SubjectUserSid: S-1-5-21-3239415629-1862073780-2394361899-500
+    SubjectUserName: Administrator
+    SubjectDomainName: FORELA
+    SubjectLogonId: '0x8de3d'
+    CallerProcessId: '0xf64'
+    CallerProcessName: C:\Windows\System32\ntdsutil.exe
+
+---
+Event_attributes:
+  xmlns: http://schemas.microsoft.com/win/2004/08/events/event
+Event:
+  System:
+    Provider_attributes:
+      Name: Microsoft-Windows-Security-Auditing
+      Guid: 54849625-5478-4994-A5BA-3E3B0328C30D
+    EventID: 4799
+    Version: 0
+    Level: 0
+    Task: 13826
+    Opcode: 0
+    Keywords: '0x8020000000000000'
+    TimeCreated_attributes:
+      SystemTime: 2024-05-15T05:39:55.649435Z
+    EventRecordID: 5986
+    Correlation: null
+    Execution_attributes:
+      ProcessID: 764
+      ThreadID: 980
+    Channel: Security
+    Computer: DC01.forela.local
+    Security: null
+  EventData:
+    TargetUserName: Backup Operators
+    TargetDomainName: Builtin
+    TargetSid: S-1-5-32-551
+    SubjectUserSid: S-1-5-21-3239415629-1862073780-2394361899-500
+    SubjectUserName: Administrator
+    SubjectDomainName: FORELA
+    SubjectLogonId: '0x8de3d'
+    CallerProcessId: '0xf64'
+    CallerProcessName: C:\Windows\System32\ntdsutil.exe
+
+---
+Event_attributes:
+  xmlns: http://schemas.microsoft.com/win/2004/08/events/event
+Event:
+  System:
+    Provider_attributes:
+      Name: Microsoft-Windows-Security-Auditing
+      Guid: 54849625-5478-4994-A5BA-3E3B0328C30D
+    EventID: 4799
+    Version: 0
+    Level: 0
+    Task: 13826
+    Opcode: 0
+    Keywords: '0x8020000000000000'
+    TimeCreated_attributes:
+      SystemTime: 2024-05-15T05:39:55.649861Z
+    EventRecordID: 5987
+    Correlation: null
+    Execution_attributes:
+      ProcessID: 764
+      ThreadID: 980
+    Channel: Security
+    Computer: DC01.forela.local
+    Security: null
+  EventData:
+    TargetUserName: Administrators
+    TargetDomainName: Builtin
+    TargetSid: S-1-5-32-544
+    SubjectUserSid: S-1-5-21-3239415629-1862073780-2394361899-500
+    SubjectUserName: Administrator
+    SubjectDomainName: FORELA
+    SubjectLogonId: '0x8de3d'
+    CallerProcessId: '0xf64'
+    CallerProcessName: C:\Windows\System32\ntdsutil.exe
+
+---
+Event_attributes:
+  xmlns: http://schemas.microsoft.com/win/2004/08/events/event
+Event:
+  System:
+    Provider_attributes:
+      Name: Microsoft-Windows-Security-Auditing
+      Guid: 54849625-5478-4994-A5BA-3E3B0328C30D
+    EventID: 4799
+    Version: 0
+    Level: 0
+    Task: 13826
+    Opcode: 0
+    Keywords: '0x8020000000000000'
+    TimeCreated_attributes:
+      SystemTime: 2024-05-15T05:39:55.650056Z
+    EventRecordID: 5988
+    Correlation: null
+    Execution_attributes:
+      ProcessID: 764
+      ThreadID: 980
+    Channel: Security
+    Computer: DC01.forela.local
+    Security: null
+  EventData:
+    TargetUserName: Administrators
+    TargetDomainName: Builtin
+    TargetSid: S-1-5-32-544
+    SubjectUserSid: S-1-5-21-3239415629-1862073780-2394361899-500
+    SubjectUserName: Administrator
+    SubjectDomainName: FORELA
+    SubjectLogonId: '0x8de3d'
+    CallerProcessId: '0xf64'
+    CallerProcessName: C:\Windows\System32\ntdsutil.exe
+
+---
+Event_attributes:
+  xmlns: http://schemas.microsoft.com/win/2004/08/events/event
+Event:
+  System:
+    Provider_attributes:
+      Name: Microsoft-Windows-Security-Auditing
+      Guid: 54849625-5478-4994-A5BA-3E3B0328C30D
+    EventID: 4799
+    Version: 0
+    Level: 0
+    Task: 13826
+    Opcode: 0
+    Keywords: '0x8020000000000000'
+    TimeCreated_attributes:
+      SystemTime: 2024-05-15T05:39:55.650525Z
+    EventRecordID: 5989
+    Correlation: null
+    Execution_attributes:
+      ProcessID: 764
+      ThreadID: 980
+    Channel: Security
+    Computer: DC01.forela.local
+    Security: null
+  EventData:
+    TargetUserName: Backup Operators
+    TargetDomainName: Builtin
+    TargetSid: S-1-5-32-551
+    SubjectUserSid: S-1-5-21-3239415629-1862073780-2394361899-500
+    SubjectUserName: Administrator
+    SubjectDomainName: FORELA
+    SubjectLogonId: '0x8de3d'
+    CallerProcessId: '0xf64'
+    CallerProcessName: C:\Windows\System32\ntdsutil.exe
+
+---
+Event_attributes:
+  xmlns: http://schemas.microsoft.com/win/2004/08/events/event
+Event:
+  System:
+    Provider_attributes:
+      Name: Microsoft-Windows-Security-Auditing
+      Guid: 54849625-5478-4994-A5BA-3E3B0328C30D
+    EventID: 4799
+    Version: 0
+    Level: 0
+    Task: 13826
+    Opcode: 0
+    Keywords: '0x8020000000000000'
+    TimeCreated_attributes:
+      SystemTime: 2024-05-15T05:39:55.650607Z
+    EventRecordID: 5990
+    Correlation: null
+    Execution_attributes:
+      ProcessID: 764
+      ThreadID: 812
+    Channel: Security
+    Computer: DC01.forela.local
+    Security: null
+  EventData:
+    TargetUserName: Backup Operators
+    TargetDomainName: Builtin
+    TargetSid: S-1-5-32-551
+    SubjectUserSid: S-1-5-21-3239415629-1862073780-2394361899-500
+    SubjectUserName: Administrator
+    SubjectDomainName: FORELA
+    SubjectLogonId: '0x8de3d'
+    CallerProcessId: '0xf64'
+    CallerProcessName: C:\Windows\System32\ntdsutil.exe
+
+---
+Event_attributes:
+  xmlns: http://schemas.microsoft.com/win/2004/08/events/event
+Event:
+  System:
+    Provider_attributes:
+      Name: Microsoft-Windows-Security-Auditing
+      Guid: 54849625-5478-4994-A5BA-3E3B0328C30D
+    EventID: 4799
+    Version: 0
+    Level: 0
+    Task: 13826
+    Opcode: 0
+    Keywords: '0x8020000000000000'
+    TimeCreated_attributes:
+      SystemTime: 2024-05-15T05:39:55.655776Z
+    EventRecordID: 5991
+    Correlation: null
+    Execution_attributes:
+      ProcessID: 764
+      ThreadID: 812
+    Channel: Security
+    Computer: DC01.forela.local
+    Security: null
+  EventData:
+    TargetUserName: Administrators
+    TargetDomainName: Builtin
+    TargetSid: S-1-5-32-544
+    SubjectUserSid: S-1-5-21-3239415629-1862073780-2394361899-500
+    SubjectUserName: Administrator
+    SubjectDomainName: FORELA
+    SubjectLogonId: '0x8de3d'
+    CallerProcessId: '0xf64'
+    CallerProcessName: C:\Windows\System32\ntdsutil.exe
+
+---
+Event_attributes:
+  xmlns: http://schemas.microsoft.com/win/2004/08/events/event
+Event:
+  System:
+    Provider_attributes:
+      Name: Microsoft-Windows-Security-Auditing
+      Guid: 54849625-5478-4994-A5BA-3E3B0328C30D
+    EventID: 4799
+    Version: 0
+    Level: 0
+    Task: 13826
+    Opcode: 0
+    Keywords: '0x8020000000000000'
+    TimeCreated_attributes:
+      SystemTime: 2024-05-15T05:39:55.656280Z
+    EventRecordID: 5992
+    Correlation: null
+    Execution_attributes:
+      ProcessID: 764
+      ThreadID: 812
+    Channel: Security
+    Computer: DC01.forela.local
+    Security: null
+  EventData:
+    TargetUserName: Backup Operators
+    TargetDomainName: Builtin
+    TargetSid: S-1-5-32-551
+    SubjectUserSid: S-1-5-21-3239415629-1862073780-2394361899-500
+    SubjectUserName: Administrator
+    SubjectDomainName: FORELA
+    SubjectLogonId: '0x8de3d'
+    CallerProcessId: '0xf64'
+    CallerProcessName: C:\Windows\System32\ntdsutil.exe
+
+---
+Event_attributes:
+  xmlns: http://schemas.microsoft.com/win/2004/08/events/event
+Event:
+  System:
+    Provider_attributes:
+      Name: Microsoft-Windows-Security-Auditing
+      Guid: 54849625-5478-4994-A5BA-3E3B0328C30D
+    EventID: 4799
+    Version: 0
+    Level: 0
+    Task: 13826
+    Opcode: 0
+    Keywords: '0x8020000000000000'
+    TimeCreated_attributes:
+      SystemTime: 2024-05-15T05:39:55.721372Z
+    EventRecordID: 5993
+    Correlation: null
+    Execution_attributes:
+      ProcessID: 764
+      ThreadID: 812
+    Channel: Security
+    Computer: DC01.forela.local
+    Security: null
+  EventData:
+    TargetUserName: Administrators
+    TargetDomainName: Builtin
+    TargetSid: S-1-5-32-544
+    SubjectUserSid: S-1-5-21-3239415629-1862073780-2394361899-500
+    SubjectUserName: Administrator
+    SubjectDomainName: FORELA
+    SubjectLogonId: '0x8de3d'
+    CallerProcessId: '0xf64'
+    CallerProcessName: C:\Windows\System32\ntdsutil.exe
+
+---
+Event_attributes:
+  xmlns: http://schemas.microsoft.com/win/2004/08/events/event
+Event:
+  System:
+    Provider_attributes:
+      Name: Microsoft-Windows-Security-Auditing
+      Guid: 54849625-5478-4994-A5BA-3E3B0328C30D
+    EventID: 4799
+    Version: 0
+    Level: 0
+    Task: 13826
+    Opcode: 0
+    Keywords: '0x8020000000000000'
+    TimeCreated_attributes:
+      SystemTime: 2024-05-15T05:39:55.722279Z
+    EventRecordID: 5994
+    Correlation: null
+    Execution_attributes:
+      ProcessID: 764
+      ThreadID: 4180
+    Channel: Security
+    Computer: DC01.forela.local
+    Security: null
+  EventData:
+    TargetUserName: Backup Operators
+    TargetDomainName: Builtin
+    TargetSid: S-1-5-32-551
+    SubjectUserSid: S-1-5-21-3239415629-1862073780-2394361899-500
+    SubjectUserName: Administrator
+    SubjectDomainName: FORELA
+    SubjectLogonId: '0x8de3d'
+    CallerProcessId: '0xf64'
+    CallerProcessName: C:\Windows\System32\ntdsutil.exe
+
+---
+Event_attributes:
+  xmlns: http://schemas.microsoft.com/win/2004/08/events/event
+Event:
+  System:
+    Provider_attributes:
+      Name: Microsoft-Windows-Security-Auditing
+      Guid: 54849625-5478-4994-A5BA-3E3B0328C30D
+    EventID: 4799
+    Version: 0
+    Level: 0
+    Task: 13826
+    Opcode: 0
+    Keywords: '0x8020000000000000'
+    TimeCreated_attributes:
+      SystemTime: 2024-05-15T05:39:55.723635Z
+    EventRecordID: 5995
+    Correlation: null
+    Execution_attributes:
+      ProcessID: 764
+      ThreadID: 4180
+    Channel: Security
+    Computer: DC01.forela.local
+    Security: null
+  EventData:
+    TargetUserName: Administrators
+    TargetDomainName: Builtin
+    TargetSid: S-1-5-32-544
+    SubjectUserSid: S-1-5-21-3239415629-1862073780-2394361899-500
+    SubjectUserName: Administrator
+    SubjectDomainName: FORELA
+    SubjectLogonId: '0x8de3d'
+    CallerProcessId: '0xf64'
+    CallerProcessName: C:\Windows\System32\ntdsutil.exe
+
+---
+Event_attributes:
+  xmlns: http://schemas.microsoft.com/win/2004/08/events/event
+Event:
+  System:
+    Provider_attributes:
+      Name: Microsoft-Windows-Security-Auditing
+      Guid: 54849625-5478-4994-A5BA-3E3B0328C30D
+    EventID: 4799
+    Version: 0
+    Level: 0
+    Task: 13826
+    Opcode: 0
+    Keywords: '0x8020000000000000'
+    TimeCreated_attributes:
+      SystemTime: 2024-05-15T05:39:55.724415Z
+    EventRecordID: 5996
+    Correlation: null
+    Execution_attributes:
+      ProcessID: 764
+      ThreadID: 4180
+    Channel: Security
+    Computer: DC01.forela.local
+    Security: null
+  EventData:
+    TargetUserName: Backup Operators
+    TargetDomainName: Builtin
+    TargetSid: S-1-5-32-551
+    SubjectUserSid: S-1-5-21-3239415629-1862073780-2394361899-500
+    SubjectUserName: Administrator
+    SubjectDomainName: FORELA
+    SubjectLogonId: '0x8de3d'
+    CallerProcessId: '0xf64'
+    CallerProcessName: C:\Windows\System32\ntdsutil.exe
+
+---
+Event_attributes:
+  xmlns: http://schemas.microsoft.com/win/2004/08/events/event
+Event:
+  System:
+    Provider_attributes:
+      Name: Microsoft-Windows-Security-Auditing
+      Guid: 54849625-5478-4994-A5BA-3E3B0328C30D
+    EventID: 4799
+    Version: 0
+    Level: 0
+    Task: 13826
+    Opcode: 0
+    Keywords: '0x8020000000000000'
+    TimeCreated_attributes:
+      SystemTime: 2024-05-15T05:39:55.726595Z
+    EventRecordID: 5997
+    Correlation: null
+    Execution_attributes:
+      ProcessID: 764
+      ThreadID: 812
+    Channel: Security
+    Computer: DC01.forela.local
+    Security: null
+  EventData:
+    TargetUserName: Administrators
+    TargetDomainName: Builtin
+    TargetSid: S-1-5-32-544
+    SubjectUserSid: S-1-5-21-3239415629-1862073780-2394361899-500
+    SubjectUserName: Administrator
+    SubjectDomainName: FORELA
+    SubjectLogonId: '0x8de3d'
+    CallerProcessId: '0xf64'
+    CallerProcessName: C:\Windows\System32\ntdsutil.exe
+
+---
+Event_attributes:
+  xmlns: http://schemas.microsoft.com/win/2004/08/events/event
+Event:
+  System:
+    Provider_attributes:
+      Name: Microsoft-Windows-Security-Auditing
+      Guid: 54849625-5478-4994-A5BA-3E3B0328C30D
+    EventID: 4799
+    Version: 0
+    Level: 0
+    Task: 13826
+    Opcode: 0
+    Keywords: '0x8020000000000000'
+    TimeCreated_attributes:
+      SystemTime: 2024-05-15T05:39:55.726759Z
+    EventRecordID: 5998
+    Correlation: null
+    Execution_attributes:
+      ProcessID: 764
+      ThreadID: 980
+    Channel: Security
+    Computer: DC01.forela.local
+    Security: null
+  EventData:
+    TargetUserName: Administrators
+    TargetDomainName: Builtin
+    TargetSid: S-1-5-32-544
+    SubjectUserSid: S-1-5-21-3239415629-1862073780-2394361899-500
+    SubjectUserName: Administrator
+    SubjectDomainName: FORELA
+    SubjectLogonId: '0x8de3d'
+    CallerProcessId: '0xf64'
+    CallerProcessName: C:\Windows\System32\ntdsutil.exe
+
+---
+Event_attributes:
+  xmlns: http://schemas.microsoft.com/win/2004/08/events/event
+Event:
+  System:
+    Provider_attributes:
+      Name: Microsoft-Windows-Security-Auditing
+      Guid: 54849625-5478-4994-A5BA-3E3B0328C30D
+    EventID: 4799
+    Version: 0
+    Level: 0
+    Task: 13826
+    Opcode: 0
+    Keywords: '0x8020000000000000'
+    TimeCreated_attributes:
+      SystemTime: 2024-05-15T05:39:55.727079Z
+    EventRecordID: 5999
+    Correlation: null
+    Execution_attributes:
+      ProcessID: 764
+      ThreadID: 980
+    Channel: Security
+    Computer: DC01.forela.local
+    Security: null
+  EventData:
+    TargetUserName: Backup Operators
+    TargetDomainName: Builtin
+    TargetSid: S-1-5-32-551
+    SubjectUserSid: S-1-5-21-3239415629-1862073780-2394361899-500
+    SubjectUserName: Administrator
+    SubjectDomainName: FORELA
+    SubjectLogonId: '0x8de3d'
+    CallerProcessId: '0xf64'
+    CallerProcessName: C:\Windows\System32\ntdsutil.exe
+
+---
+Event_attributes:
+  xmlns: http://schemas.microsoft.com/win/2004/08/events/event
+Event:
+  System:
+    Provider_attributes:
+      Name: Microsoft-Windows-Security-Auditing
+      Guid: 54849625-5478-4994-A5BA-3E3B0328C30D
+    EventID: 4799
+    Version: 0
+    Level: 0
+    Task: 13826
+    Opcode: 0
+    Keywords: '0x8020000000000000'
+    TimeCreated_attributes:
+      SystemTime: 2024-05-15T05:39:55.727337Z
+    EventRecordID: 6000
+    Correlation: null
+    Execution_attributes:
+      ProcessID: 764
+      ThreadID: 812
+    Channel: Security
+    Computer: DC01.forela.local
+    Security: null
+  EventData:
+    TargetUserName: Backup Operators
+    TargetDomainName: Builtin
+    TargetSid: S-1-5-32-551
+    SubjectUserSid: S-1-5-21-3239415629-1862073780-2394361899-500
+    SubjectUserName: Administrator
+    SubjectDomainName: FORELA
+    SubjectLogonId: '0x8de3d'
+    CallerProcessId: '0xf64'
+    CallerProcessName: C:\Windows\System32\ntdsutil.exe
+
+---
+Event_attributes:
+  xmlns: http://schemas.microsoft.com/win/2004/08/events/event
+Event:
+  System:
+    Provider_attributes:
+      Name: Microsoft-Windows-Security-Auditing
+      Guid: 54849625-5478-4994-A5BA-3E3B0328C30D
+    EventID: 4799
+    Version: 0
+    Level: 0
+    Task: 13826
+    Opcode: 0
+    Keywords: '0x8020000000000000'
+    TimeCreated_attributes:
+      SystemTime: 2024-05-15T05:39:55.727598Z
+    EventRecordID: 6001
+    Correlation: null
+    Execution_attributes:
+      ProcessID: 764
+      ThreadID: 812
+    Channel: Security
+    Computer: DC01.forela.local
+    Security: null
+  EventData:
+    TargetUserName: Administrators
+    TargetDomainName: Builtin
+    TargetSid: S-1-5-32-544
+    SubjectUserSid: S-1-5-21-3239415629-1862073780-2394361899-500
+    SubjectUserName: Administrator
+    SubjectDomainName: FORELA
+    SubjectLogonId: '0x8de3d'
+    CallerProcessId: '0xf64'
+    CallerProcessName: C:\Windows\System32\ntdsutil.exe
+
+---
+Event_attributes:
+  xmlns: http://schemas.microsoft.com/win/2004/08/events/event
+Event:
+  System:
+    Provider_attributes:
+      Name: Microsoft-Windows-Security-Auditing
+      Guid: 54849625-5478-4994-A5BA-3E3B0328C30D
+    EventID: 4799
+    Version: 0
+    Level: 0
+    Task: 13826
+    Opcode: 0
+    Keywords: '0x8020000000000000'
+    TimeCreated_attributes:
+      SystemTime: 2024-05-15T05:39:55.727985Z
+    EventRecordID: 6002
+    Correlation: null
+    Execution_attributes:
+      ProcessID: 764
+      ThreadID: 980
+    Channel: Security
+    Computer: DC01.forela.local
+    Security: null
+  EventData:
+    TargetUserName: Administrators
+    TargetDomainName: Builtin
+    TargetSid: S-1-5-32-544
+    SubjectUserSid: S-1-5-21-3239415629-1862073780-2394361899-500
+    SubjectUserName: Administrator
+    SubjectDomainName: FORELA
+    SubjectLogonId: '0x8de3d'
+    CallerProcessId: '0xf64'
+    CallerProcessName: C:\Windows\System32\ntdsutil.exe
+
+---
+Event_attributes:
+  xmlns: http://schemas.microsoft.com/win/2004/08/events/event
+Event:
+  System:
+    Provider_attributes:
+      Name: Microsoft-Windows-Security-Auditing
+      Guid: 54849625-5478-4994-A5BA-3E3B0328C30D
+    EventID: 4799
+    Version: 0
+    Level: 0
+    Task: 13826
+    Opcode: 0
+    Keywords: '0x8020000000000000'
+    TimeCreated_attributes:
+      SystemTime: 2024-05-15T05:39:55.728065Z
+    EventRecordID: 6003
+    Correlation: null
+    Execution_attributes:
+      ProcessID: 764
+      ThreadID: 980
+    Channel: Security
+    Computer: DC01.forela.local
+    Security: null
+  EventData:
+    TargetUserName: Backup Operators
+    TargetDomainName: Builtin
+    TargetSid: S-1-5-32-551
+    SubjectUserSid: S-1-5-21-3239415629-1862073780-2394361899-500
+    SubjectUserName: Administrator
+    SubjectDomainName: FORELA
+    SubjectLogonId: '0x8de3d'
+    CallerProcessId: '0xf64'
+    CallerProcessName: C:\Windows\System32\ntdsutil.exe
+
+---
+Event_attributes:
+  xmlns: http://schemas.microsoft.com/win/2004/08/events/event
+Event:
+  System:
+    Provider_attributes:
+      Name: Microsoft-Windows-Security-Auditing
+      Guid: 54849625-5478-4994-A5BA-3E3B0328C30D
+    EventID: 4799
+    Version: 0
+    Level: 0
+    Task: 13826
+    Opcode: 0
+    Keywords: '0x8020000000000000'
+    TimeCreated_attributes:
+      SystemTime: 2024-05-15T05:39:55.728584Z
+    EventRecordID: 6004
+    Correlation: null
+    Execution_attributes:
+      ProcessID: 764
+      ThreadID: 980
+    Channel: Security
+    Computer: DC01.forela.local
+    Security: null
+  EventData:
+    TargetUserName: Backup Operators
+    TargetDomainName: Builtin
+    TargetSid: S-1-5-32-551
+    SubjectUserSid: S-1-5-21-3239415629-1862073780-2394361899-500
+    SubjectUserName: Administrator
+    SubjectDomainName: FORELA
+    SubjectLogonId: '0x8de3d'
+    CallerProcessId: '0xf64'
+    CallerProcessName: C:\Windows\System32\ntdsutil.exe
+
+---
+Event_attributes:
+  xmlns: http://schemas.microsoft.com/win/2004/08/events/event
+Event:
+  System:
+    Provider_attributes:
+      Name: Microsoft-Windows-Security-Auditing
+      Guid: 54849625-5478-4994-A5BA-3E3B0328C30D
+    EventID: 4799
+    Version: 0
+    Level: 0
+    Task: 13826
+    Opcode: 0
+    Keywords: '0x8020000000000000'
+    TimeCreated_attributes:
+      SystemTime: 2024-05-15T05:39:55.728605Z
+    EventRecordID: 6005
+    Correlation: null
+    Execution_attributes:
+      ProcessID: 764
+      ThreadID: 812
+    Channel: Security
+    Computer: DC01.forela.local
+    Security: null
+  EventData:
+    TargetUserName: Administrators
+    TargetDomainName: Builtin
+    TargetSid: S-1-5-32-544
+    SubjectUserSid: S-1-5-21-3239415629-1862073780-2394361899-500
+    SubjectUserName: Administrator
+    SubjectDomainName: FORELA
+    SubjectLogonId: '0x8de3d'
+    CallerProcessId: '0xf64'
+    CallerProcessName: C:\Windows\System32\ntdsutil.exe
+
+---
+Event_attributes:
+  xmlns: http://schemas.microsoft.com/win/2004/08/events/event
+Event:
+  System:
+    Provider_attributes:
+      Name: Microsoft-Windows-Security-Auditing
+      Guid: 54849625-5478-4994-A5BA-3E3B0328C30D
+    EventID: 4799
+    Version: 0
+    Level: 0
+    Task: 13826
+    Opcode: 0
+    Keywords: '0x8020000000000000'
+    TimeCreated_attributes:
+      SystemTime: 2024-05-15T05:39:55.729059Z
+    EventRecordID: 6006
+    Correlation: null
+    Execution_attributes:
+      ProcessID: 764
+      ThreadID: 812
+    Channel: Security
+    Computer: DC01.forela.local
+    Security: null
+  EventData:
+    TargetUserName: Backup Operators
+    TargetDomainName: Builtin
+    TargetSid: S-1-5-32-551
+    SubjectUserSid: S-1-5-21-3239415629-1862073780-2394361899-500
+    SubjectUserName: Administrator
+    SubjectDomainName: FORELA
+    SubjectLogonId: '0x8de3d'
+    CallerProcessId: '0xf64'
+    CallerProcessName: C:\Windows\System32\ntdsutil.exe
+
+---
+Event_attributes:
+  xmlns: http://schemas.microsoft.com/win/2004/08/events/event
+Event:
+  System:
+    Provider_attributes:
+      Name: Microsoft-Windows-Security-Auditing
+      Guid: 54849625-5478-4994-A5BA-3E3B0328C30D
+    EventID: 4799
+    Version: 0
+    Level: 0
+    Task: 13826
+    Opcode: 0
+    Keywords: '0x8020000000000000'
+    TimeCreated_attributes:
+      SystemTime: 2024-05-15T05:39:55.729142Z
+    EventRecordID: 6007
+    Correlation: null
+    Execution_attributes:
+      ProcessID: 764
+      ThreadID: 980
+    Channel: Security
+    Computer: DC01.forela.local
+    Security: null
+  EventData:
+    TargetUserName: Administrators
+    TargetDomainName: Builtin
+    TargetSid: S-1-5-32-544
+    SubjectUserSid: S-1-5-21-3239415629-1862073780-2394361899-500
+    SubjectUserName: Administrator
+    SubjectDomainName: FORELA
+    SubjectLogonId: '0x8de3d'
+    CallerProcessId: '0xf64'
+    CallerProcessName: C:\Windows\System32\ntdsutil.exe
+
+---
+Event_attributes:
+  xmlns: http://schemas.microsoft.com/win/2004/08/events/event
+Event:
+  System:
+    Provider_attributes:
+      Name: Microsoft-Windows-Security-Auditing
+      Guid: 54849625-5478-4994-A5BA-3E3B0328C30D
+    EventID: 4799
+    Version: 0
+    Level: 0
+    Task: 13826
+    Opcode: 0
+    Keywords: '0x8020000000000000'
+    TimeCreated_attributes:
+      SystemTime: 2024-05-15T05:39:55.729680Z
+    EventRecordID: 6008
+    Correlation: null
+    Execution_attributes:
+      ProcessID: 764
+      ThreadID: 980
+    Channel: Security
+    Computer: DC01.forela.local
+    Security: null
+  EventData:
+    TargetUserName: Backup Operators
+    TargetDomainName: Builtin
+    TargetSid: S-1-5-32-551
+    SubjectUserSid: S-1-5-21-3239415629-1862073780-2394361899-500
+    SubjectUserName: Administrator
+    SubjectDomainName: FORELA
+    SubjectLogonId: '0x8de3d'
+    CallerProcessId: '0xf64'
+    CallerProcessName: C:\Windows\System32\ntdsutil.exe
+
+---
+Event_attributes:
+  xmlns: http://schemas.microsoft.com/win/2004/08/events/event
+Event:
+  System:
+    Provider_attributes:
+      Name: Microsoft-Windows-Security-Auditing
+      Guid: 54849625-5478-4994-A5BA-3E3B0328C30D
+    EventID: 4799
+    Version: 0
+    Level: 0
+    Task: 13826
+    Opcode: 0
+    Keywords: '0x8020000000000000'
+    TimeCreated_attributes:
+      SystemTime: 2024-05-15T05:39:55.730826Z
+    EventRecordID: 6009
+    Correlation: null
+    Execution_attributes:
+      ProcessID: 764
+      ThreadID: 980
+    Channel: Security
+    Computer: DC01.forela.local
+    Security: null
+  EventData:
+    TargetUserName: Administrators
+    TargetDomainName: Builtin
+    TargetSid: S-1-5-32-544
+    SubjectUserSid: S-1-5-21-3239415629-1862073780-2394361899-500
+    SubjectUserName: Administrator
+    SubjectDomainName: FORELA
+    SubjectLogonId: '0x8de3d'
+    CallerProcessId: '0xf64'
+    CallerProcessName: C:\Windows\System32\ntdsutil.exe
+
+---
+Event_attributes:
+  xmlns: http://schemas.microsoft.com/win/2004/08/events/event
+Event:
+  System:
+    Provider_attributes:
+      Name: Microsoft-Windows-Security-Auditing
+      Guid: 54849625-5478-4994-A5BA-3E3B0328C30D
+    EventID: 4799
+    Version: 0
+    Level: 0
+    Task: 13826
+    Opcode: 0
+    Keywords: '0x8020000000000000'
+    TimeCreated_attributes:
+      SystemTime: 2024-05-15T05:39:55.731304Z
+    EventRecordID: 6010
+    Correlation: null
+    Execution_attributes:
+      ProcessID: 764
+      ThreadID: 980
+    Channel: Security
+    Computer: DC01.forela.local
+    Security: null
+  EventData:
+    TargetUserName: Backup Operators
+    TargetDomainName: Builtin
+    TargetSid: S-1-5-32-551
+    SubjectUserSid: S-1-5-21-3239415629-1862073780-2394361899-500
+    SubjectUserName: Administrator
+    SubjectDomainName: FORELA
+    SubjectLogonId: '0x8de3d'
+    CallerProcessId: '0xf64'
+    CallerProcessName: C:\Windows\System32\ntdsutil.exe
+
+---
+Event_attributes:
+  xmlns: http://schemas.microsoft.com/win/2004/08/events/event
+Event:
+  System:
+    Provider_attributes:
+      Name: Microsoft-Windows-Security-Auditing
+      Guid: 54849625-5478-4994-A5BA-3E3B0328C30D
+    EventID: 4799
+    Version: 0
+    Level: 0
+    Task: 13826
+    Opcode: 0
+    Keywords: '0x8020000000000000'
+    TimeCreated_attributes:
+      SystemTime: 2024-05-15T05:39:55.731561Z
+    EventRecordID: 6011
+    Correlation: null
+    Execution_attributes:
+      ProcessID: 764
+      ThreadID: 980
+    Channel: Security
+    Computer: DC01.forela.local
+    Security: null
+  EventData:
+    TargetUserName: Administrators
+    TargetDomainName: Builtin
+    TargetSid: S-1-5-32-544
+    SubjectUserSid: S-1-5-21-3239415629-1862073780-2394361899-500
+    SubjectUserName: Administrator
+    SubjectDomainName: FORELA
+    SubjectLogonId: '0x8de3d'
+    CallerProcessId: '0xf64'
+    CallerProcessName: C:\Windows\System32\ntdsutil.exe
+
+---
+Event_attributes:
+  xmlns: http://schemas.microsoft.com/win/2004/08/events/event
+Event:
+  System:
+    Provider_attributes:
+      Name: Microsoft-Windows-Security-Auditing
+      Guid: 54849625-5478-4994-A5BA-3E3B0328C30D
+    EventID: 4799
+    Version: 0
+    Level: 0
+    Task: 13826
+    Opcode: 0
+    Keywords: '0x8020000000000000'
+    TimeCreated_attributes:
+      SystemTime: 2024-05-15T05:39:55.732026Z
+    EventRecordID: 6012
+    Correlation: null
+    Execution_attributes:
+      ProcessID: 764
+      ThreadID: 980
+    Channel: Security
+    Computer: DC01.forela.local
+    Security: null
+  EventData:
+    TargetUserName: Backup Operators
+    TargetDomainName: Builtin
+    TargetSid: S-1-5-32-551
+    SubjectUserSid: S-1-5-21-3239415629-1862073780-2394361899-500
+    SubjectUserName: Administrator
+    SubjectDomainName: FORELA
+    SubjectLogonId: '0x8de3d'
+    CallerProcessId: '0xf64'
+    CallerProcessName: C:\Windows\System32\ntdsutil.exe
+
+---
+Event_attributes:
+  xmlns: http://schemas.microsoft.com/win/2004/08/events/event
+Event:
+  System:
+    Provider_attributes:
+      Name: Microsoft-Windows-Security-Auditing
+      Guid: 54849625-5478-4994-A5BA-3E3B0328C30D
+    EventID: 4799
+    Version: 0
+    Level: 0
+    Task: 13826
+    Opcode: 0
+    Keywords: '0x8020000000000000'
+    TimeCreated_attributes:
+      SystemTime: 2024-05-15T05:39:55.732597Z
+    EventRecordID: 6013
+    Correlation: null
+    Execution_attributes:
+      ProcessID: 764
+      ThreadID: 980
+    Channel: Security
+    Computer: DC01.forela.local
+    Security: null
+  EventData:
+    TargetUserName: Administrators
+    TargetDomainName: Builtin
+    TargetSid: S-1-5-32-544
+    SubjectUserSid: S-1-5-21-3239415629-1862073780-2394361899-500
+    SubjectUserName: Administrator
+    SubjectDomainName: FORELA
+    SubjectLogonId: '0x8de3d'
+    CallerProcessId: '0xf64'
+    CallerProcessName: C:\Windows\System32\ntdsutil.exe
+
+---
+Event_attributes:
+  xmlns: http://schemas.microsoft.com/win/2004/08/events/event
+Event:
+  System:
+    Provider_attributes:
+      Name: Microsoft-Windows-Security-Auditing
+      Guid: 54849625-5478-4994-A5BA-3E3B0328C30D
+    EventID: 4799
+    Version: 0
+    Level: 0
+    Task: 13826
+    Opcode: 0
+    Keywords: '0x8020000000000000'
+    TimeCreated_attributes:
+      SystemTime: 2024-05-15T05:39:55.733263Z
+    EventRecordID: 6014
+    Correlation: null
+    Execution_attributes:
+      ProcessID: 764
+      ThreadID: 980
+    Channel: Security
+    Computer: DC01.forela.local
+    Security: null
+  EventData:
+    TargetUserName: Backup Operators
+    TargetDomainName: Builtin
+    TargetSid: S-1-5-32-551
+    SubjectUserSid: S-1-5-21-3239415629-1862073780-2394361899-500
+    SubjectUserName: Administrator
+    SubjectDomainName: FORELA
+    SubjectLogonId: '0x8de3d'
+    CallerProcessId: '0xf64'
+    CallerProcessName: C:\Windows\System32\ntdsutil.exe
+
+---
+Event_attributes:
+  xmlns: http://schemas.microsoft.com/win/2004/08/events/event
+Event:
+  System:
+    Provider_attributes:
+      Name: Microsoft-Windows-Security-Auditing
+      Guid: 54849625-5478-4994-A5BA-3E3B0328C30D
+    EventID: 4799
+    Version: 0
+    Level: 0
+    Task: 13826
+    Opcode: 0
+    Keywords: '0x8020000000000000'
+    TimeCreated_attributes:
+      SystemTime: 2024-05-15T05:39:55.733829Z
+    EventRecordID: 6015
+    Correlation: null
+    Execution_attributes:
+      ProcessID: 764
+      ThreadID: 980
+    Channel: Security
+    Computer: DC01.forela.local
+    Security: null
+  EventData:
+    TargetUserName: Administrators
+    TargetDomainName: Builtin
+    TargetSid: S-1-5-32-544
+    SubjectUserSid: S-1-5-21-3239415629-1862073780-2394361899-500
+    SubjectUserName: Administrator
+    SubjectDomainName: FORELA
+    SubjectLogonId: '0x8de3d'
+    CallerProcessId: '0xf64'
+    CallerProcessName: C:\Windows\System32\ntdsutil.exe
+
+---
+Event_attributes:
+  xmlns: http://schemas.microsoft.com/win/2004/08/events/event
+Event:
+  System:
+    Provider_attributes:
+      Name: Microsoft-Windows-Security-Auditing
+      Guid: 54849625-5478-4994-A5BA-3E3B0328C30D
+    EventID: 4799
+    Version: 0
+    Level: 0
+    Task: 13826
+    Opcode: 0
+    Keywords: '0x8020000000000000'
+    TimeCreated_attributes:
+      SystemTime: 2024-05-15T05:39:55.734080Z
+    EventRecordID: 6016
+    Correlation: null
+    Execution_attributes:
+      ProcessID: 764
+      ThreadID: 812
+    Channel: Security
+    Computer: DC01.forela.local
+    Security: null
+  EventData:
+    TargetUserName: Administrators
+    TargetDomainName: Builtin
+    TargetSid: S-1-5-32-544
+    SubjectUserSid: S-1-5-21-3239415629-1862073780-2394361899-500
+    SubjectUserName: Administrator
+    SubjectDomainName: FORELA
+    SubjectLogonId: '0x8de3d'
+    CallerProcessId: '0xf64'
+    CallerProcessName: C:\Windows\System32\ntdsutil.exe
+
+---
+Event_attributes:
+  xmlns: http://schemas.microsoft.com/win/2004/08/events/event
+Event:
+  System:
+    Provider_attributes:
+      Name: Microsoft-Windows-Security-Auditing
+      Guid: 54849625-5478-4994-A5BA-3E3B0328C30D
+    EventID: 4799
+    Version: 0
+    Level: 0
+    Task: 13826
+    Opcode: 0
+    Keywords: '0x8020000000000000'
+    TimeCreated_attributes:
+      SystemTime: 2024-05-15T05:39:55.734285Z
+    EventRecordID: 6017
+    Correlation: null
+    Execution_attributes:
+      ProcessID: 764
+      ThreadID: 980
+    Channel: Security
+    Computer: DC01.forela.local
+    Security: null
+  EventData:
+    TargetUserName: Backup Operators
+    TargetDomainName: Builtin
+    TargetSid: S-1-5-32-551
+    SubjectUserSid: S-1-5-21-3239415629-1862073780-2394361899-500
+    SubjectUserName: Administrator
+    SubjectDomainName: FORELA
+    SubjectLogonId: '0x8de3d'
+    CallerProcessId: '0xf64'
+    CallerProcessName: C:\Windows\System32\ntdsutil.exe
+
+---
+Event_attributes:
+  xmlns: http://schemas.microsoft.com/win/2004/08/events/event
+Event:
+  System:
+    Provider_attributes:
+      Name: Microsoft-Windows-Security-Auditing
+      Guid: 54849625-5478-4994-A5BA-3E3B0328C30D
+    EventID: 4799
+    Version: 0
+    Level: 0
+    Task: 13826
+    Opcode: 0
+    Keywords: '0x8020000000000000'
+    TimeCreated_attributes:
+      SystemTime: 2024-05-15T05:39:55.734577Z
+    EventRecordID: 6018
+    Correlation: null
+    Execution_attributes:
+      ProcessID: 764
+      ThreadID: 812
+    Channel: Security
+    Computer: DC01.forela.local
+    Security: null
+  EventData:
+    TargetUserName: Backup Operators
+    TargetDomainName: Builtin
+    TargetSid: S-1-5-32-551
+    SubjectUserSid: S-1-5-21-3239415629-1862073780-2394361899-500
+    SubjectUserName: Administrator
+    SubjectDomainName: FORELA
+    SubjectLogonId: '0x8de3d'
+    CallerProcessId: '0xf64'
+    CallerProcessName: C:\Windows\System32\ntdsutil.exe
+
+---
+Event_attributes:
+  xmlns: http://schemas.microsoft.com/win/2004/08/events/event
+Event:
+  System:
+    Provider_attributes:
+      Name: Microsoft-Windows-Security-Auditing
+      Guid: 54849625-5478-4994-A5BA-3E3B0328C30D
+    EventID: 4799
+    Version: 0
+    Level: 0
+    Task: 13826
+    Opcode: 0
+    Keywords: '0x8020000000000000'
+    TimeCreated_attributes:
+      SystemTime: 2024-05-15T05:39:55.734800Z
+    EventRecordID: 6019
+    Correlation: null
+    Execution_attributes:
+      ProcessID: 764
+      ThreadID: 812
+    Channel: Security
+    Computer: DC01.forela.local
+    Security: null
+  EventData:
+    TargetUserName: Administrators
+    TargetDomainName: Builtin
+    TargetSid: S-1-5-32-544
+    SubjectUserSid: S-1-5-21-3239415629-1862073780-2394361899-500
+    SubjectUserName: Administrator
+    SubjectDomainName: FORELA
+    SubjectLogonId: '0x8de3d'
+    CallerProcessId: '0xf64'
+    CallerProcessName: C:\Windows\System32\ntdsutil.exe
+
+---
+Event_attributes:
+  xmlns: http://schemas.microsoft.com/win/2004/08/events/event
+Event:
+  System:
+    Provider_attributes:
+      Name: Microsoft-Windows-Security-Auditing
+      Guid: 54849625-5478-4994-A5BA-3E3B0328C30D
+    EventID: 4799
+    Version: 0
+    Level: 0
+    Task: 13826
+    Opcode: 0
+    Keywords: '0x8020000000000000'
+    TimeCreated_attributes:
+      SystemTime: 2024-05-15T05:39:55.735254Z
+    EventRecordID: 6020
+    Correlation: null
+    Execution_attributes:
+      ProcessID: 764
+      ThreadID: 812
+    Channel: Security
+    Computer: DC01.forela.local
+    Security: null
+  EventData:
+    TargetUserName: Backup Operators
+    TargetDomainName: Builtin
+    TargetSid: S-1-5-32-551
+    SubjectUserSid: S-1-5-21-3239415629-1862073780-2394361899-500
+    SubjectUserName: Administrator
+    SubjectDomainName: FORELA
+    SubjectLogonId: '0x8de3d'
+    CallerProcessId: '0xf64'
+    CallerProcessName: C:\Windows\System32\ntdsutil.exe
+
+---
+Event_attributes:
+  xmlns: http://schemas.microsoft.com/win/2004/08/events/event
+Event:
+  System:
+    Provider_attributes:
+      Name: Microsoft-Windows-Security-Auditing
+      Guid: 54849625-5478-4994-A5BA-3E3B0328C30D
+    EventID: 4799
+    Version: 0
+    Level: 0
+    Task: 13826
+    Opcode: 0
+    Keywords: '0x8020000000000000'
+    TimeCreated_attributes:
+      SystemTime: 2024-05-15T05:39:55.736255Z
+    EventRecordID: 6021
+    Correlation: null
+    Execution_attributes:
+      ProcessID: 764
+      ThreadID: 4180
+    Channel: Security
+    Computer: DC01.forela.local
+    Security: null
+  EventData:
+    TargetUserName: Administrators
+    TargetDomainName: Builtin
+    TargetSid: S-1-5-32-544
+    SubjectUserSid: S-1-5-21-3239415629-1862073780-2394361899-500
+    SubjectUserName: Administrator
+    SubjectDomainName: FORELA
+    SubjectLogonId: '0x8de3d'
+    CallerProcessId: '0xf64'
+    CallerProcessName: C:\Windows\System32\ntdsutil.exe
+
+---
+Event_attributes:
+  xmlns: http://schemas.microsoft.com/win/2004/08/events/event
+Event:
+  System:
+    Provider_attributes:
+      Name: Microsoft-Windows-Security-Auditing
+      Guid: 54849625-5478-4994-A5BA-3E3B0328C30D
+    EventID: 4799
+    Version: 0
+    Level: 0
+    Task: 13826
+    Opcode: 0
+    Keywords: '0x8020000000000000'
+    TimeCreated_attributes:
+      SystemTime: 2024-05-15T05:39:55.736977Z
+    EventRecordID: 6022
+    Correlation: null
+    Execution_attributes:
+      ProcessID: 764
+      ThreadID: 4180
+    Channel: Security
+    Computer: DC01.forela.local
+    Security: null
+  EventData:
+    TargetUserName: Backup Operators
+    TargetDomainName: Builtin
+    TargetSid: S-1-5-32-551
+    SubjectUserSid: S-1-5-21-3239415629-1862073780-2394361899-500
+    SubjectUserName: Administrator
+    SubjectDomainName: FORELA
+    SubjectLogonId: '0x8de3d'
+    CallerProcessId: '0xf64'
+    CallerProcessName: C:\Windows\System32\ntdsutil.exe
+
