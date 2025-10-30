@@ -18,6 +18,10 @@ evtxcmd -f "/path/Security.evtx" \
 C:\Windows\Temp\dump_tmp\Active Directory\ntds.dit
 2024-05-15 01:39:56.174 +08:00 / 2024-05-15 01:39:56.502 +08:00
 2024-05-15 05:39:58
+SubjectLogonId: '0x8de3d'
+    CallerProcessId: '0xf64'
+TargetSid: S-1-5-32-544
+    SubjectUserSid: S-1-5-21-3239415629-1862073780-2394361899-500
 
 
 
