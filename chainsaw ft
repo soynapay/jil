@@ -26,6 +26,7 @@ sudo ./chainsaw search -t 'Event.System.EventID: =xx' CrownJewel1
 sudo ./chainsaw hunt CrownJewel1 -s sigma/ -m mappings/sigma-event-logs-all.yml -r rules/ -o --csv results.csv
 
 cat output.json | jq '.Event.System.EventID'
+
 --json -o output.json
 
 cat timeline.csv | sort -t',' -k1,1 > timeline_sorted.csv
