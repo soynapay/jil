@@ -48,4 +48,24 @@ File Type	| How to View |	Best Tool
 .csv	| `column -t -s','  | less -S`
 Any large file	less / head / tail	built-in
 
+jq . ntds_events.json | less
+
+cat yourfile.json | jq -r '
+  .[] |
+  {
+    EventID: .Event.System.EventID,
+    Provider: .Event.System.Provider_attributes.Name,
+    TimeCreated: .Event.System.TimeCreated_attributes.SystemTime,
+    Computer: .Event.System.Computer,
+    Level: .Event.System.Level,
+    Task: .Event.System.Task,
+    Opcode: .Event.System.Opcode,
+    EventRecordID: .Event.System.EventRecordID,
+    Channel: .Event.System.Channel,
+    Param1: .Event.EventData.param1,
+    Param2: .Event.EventData.param2,
+    Binary: .Event.EventData.Binary
+  }
+'
+
 
