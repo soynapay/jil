@@ -38,4 +38,13 @@ cat timeline.csv | less
 
 column -t -s',' timeline.csv | less -S
 
+grep "4688" timeline.csv
+
+awk -F',' '$2 == 4688' timeline.csv
+
+File Type	| How to View |	Best Tool
+.json	| `jq . output.json	| less`
+.csv	| `column -t -s','  | less -S`
+Any large file	less / head / tail	built-in
+
 
