@@ -3,3 +3,26 @@ chainsaw hunt expects the path to the forensic artefacts as a positional argumen
 The folder name itself matters exactly (you discovered it: Access Credential, not Credential Access), and the shell splits on spaces unless you quote or escape them.
 
 https://medium.com/@izzyboop/grab-your-chainsaw-were-going-hunting-50a5c82cef5d
+
+
+sudo ./chainsaw search \                                                                                                          --match-any \                                                                                            
+  -t 'Event.System.EventID: =16' \
+  -t 'Event.System.EventID: =16962' \
+  -t 'Event.System.EventID: =16983' \
+  -t 'Event.System.EventID: =7036' \
+  CrownJewel1 --extension evtx -j -o hive_and_ntds_events.json
+
+sudo ./chainsaw search --ignore-case "System32/Config" CrownJewel1     
+
+sudo ./chainsaw search \                                                                                                          --match-any \                                                                                            
+  -t 'Event.System.EventID: =16' \
+  -t 'Event.System.EventID: =16962' \
+  -t 'Event.System.EventID: =16983' \
+  -t 'Event.System.EventID: =7036' \
+CrownJewel1 --extension evtx --from 2024-05-14T00:00:00 \ --to 2024-05-14T06:00:00 \ -j -o hive_window.json
+
+
+sudo ./chainsaw search -t 'Event.System.EventID: =xx' CrownJewel1
+
+sudo ./chainsaw hunt CrownJewel1 -s sigma/ -m mappings/sigma-event-logs-all.yml -r rules/ -o --csv results.csv
+
